@@ -1,4 +1,13 @@
+/************************
+ * Version:   Date              Name                Description
+ *==============================================================
+ * V1.0       Xx-XX-01        Developer 1           Add method implemented
+ * 
+ ************************/
 public with sharing class Calculator {
     public Calculator() {
+    }
+    public integer add(integer a, integer b) {
+        return a+b;
     }
 }
